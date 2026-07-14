@@ -94,17 +94,15 @@
       columns, stable reorder/hide-show). Added CPU/Memory/Threads/Arch/Signature
       columns.
 
-### C. Publishing
+### C. Publishing — ✅ DONE (2026-07-13)
 - [x] GPLv3 license + per-file headers + README notice → repo ready to publish.
-- [x] `git init` done (branch `main`, `Publicar GitHub/` excluded).
-- [ ] **User data still needed to commit/publish:**
-  - [ ] **Commit author email** (permanent in git history). Options:
-        a personal email · the GitHub noreply address.
-  - [ ] **GitHub repo name** (suggested: `TCPV4MAC`) + GitHub username.
-  - [ ] **Visibility**: public or private.
-  - [ ] **Push method**: (a) Claude commits locally now and pushes later ·
-        (b) install `gh` (`brew install gh`) and let Claude publish ·
-        (c) manual push (commands in `Publicar GitHub/PUBLISHING.md`).
+- [x] `git init` + first commit (author: Jensy Leonardo Martínez Cruz
+      <jensyleo@live.com>).
+- [x] **Published on GitHub**: https://github.com/jensyleo/TCPV4MAC (public,
+      pushed with `gh`).
+- [x] **GitHub Release `v1.0.0`** with the compiled `.app` (zipped) attached,
+      install instructions, and a Gatekeeper notice (app ships unsigned).
+- [x] README screenshots (overview + inspector), sensitive data blurred.
 - [ ] **Developer ID** signing + **notarization** (Gatekeeper) — optional; the
       app currently ships unsigned by design.
 
