@@ -19,3 +19,9 @@ All notable changes to **TCPV4MAC**. Format based on
   not a file export — only CSV is an actual file export.
 - Fixed the roadmap: kill process is already shipped (Phase 1), not a
   Phase 4 item; only closing an individual connection remains a future item.
+
+## [1.0.0] — 2026-07-02
+
+First release. A complete, lightweight macOS TCP/UDP connection inspector
+(Sysinternals-TCPView-inspired): live table, filters, search, inspector, color
+rules, context menu, CSV/JSON copy & export, admin mode, settings, uninstaller.
